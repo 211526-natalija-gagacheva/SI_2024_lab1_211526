@@ -1,0 +1,97 @@
+mkdir SI_2024_lab1_211526
+cd SI_2024_lab1_211526
+
+#Inicijalizirame Git vo direktoriumot
+git init
+
+#Go povrzuvame lokalniot repo so remote repo
+git remote add origin https://github.com/211526-natalija-gagacheva/SI_2024_lab1_211526.git
+
+#Proverka dali e povrzan remote repo so local repot
+git remote -v 
+
+#Dodavame README.md 
+echo "Natalija Gagahceva 211526" > README.md
+git add . 
+
+#Pravime commit so poraka Initial commit
+git commit -m "Initial commit"
+
+#Gi dodavame fajlovite vo fazata STAGED
+git add SILab1Main.java SILab1_1.java SILab1_2.java
+
+#Pravime commit so poraka 
+git commit -m "Add starter code"
+
+#Pravime sinhronizacija
+User@DESKTOP-RH85LUN MINGW64 ~/SI_2024_lab1_211526 (master)
+$ git pull origin master
+From https://github.com/211526-natalija-gagacheva/SI_2024_lab1_211526
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+#Otvarame 2 granki
+git branch bug1
+git branch bug2
+
+#Se prefrlame i popravame greshki
+git checkout bug1
+git add SILab1_1.java
+git commit -m "filterOddLengthStrings"
+git checkout master
+git checkout bug2
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+git checkout master
+git checkout bug1
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+git checkout bug2
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+
+git pull origin master
+git push --all
+
+#Spojuvanje na granka bug1 kon master
+git checkout
+git merge bug1 
+git pull origin bug1
+
+#Sinhroniziranje na site granki so remote repo
+git pull origin master
+git push --all
+
+#Pravime rebase na bug2 sprema master i reshavame conflict
+git checkout bug2
+git rebase master
+git rebase --continue
+git add SILab1Main.java
+git rebase --continue
+
+#Spojuvame bug2 so master
+git checkout master
+git merge bug2
+
+#Sinhroniziranje na granki
+git pull origin master
+git fetch origin master
+git push origin master
+
+#Dodavame datoteka logs
+git log > log.txt
+git add logs.txt 211526.txt
+
+#Sinhronizirame
+git pull origin master
+git push origin master
+
+
+
+
+
+
+
+
+
+

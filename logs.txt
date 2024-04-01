@@ -1,0 +1,54 @@
+commit e25e84da3950887e72eeef701821e4e03677bb4b
+Merge: b326afd ade36e5
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Mon Apr 1 15:24:05 2024 +0200
+
+    Merge branch 'bug2' of https://github.com/211526-natalija-gagacheva/SI_2024_lab1_211526
+
+commit b326afdbb5b7249047a4d24678b1e6865798b41e
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:32:44 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit 6eb4c7e5b13ed49c36ac24d201492c526a1f83c4
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:21:37 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit ade36e5982715950b7782d77baa18a7de422bbed
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:32:44 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit eecf1be7ebbd6dc6bbfd58fdca00d0a7bf6a3d36
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:31:45 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2cf840f15c7075b0966d0cbf10552e4ad430584a
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:21:37 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 86110295ab91411853b049c768d71445baa0e80c
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 15:18:37 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 1664bebf7e7dc7b9328f999e78ed2c9d48f56dc0
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 13:34:39 2024 +0100
+
+    Add starter code
+
+commit 32228c2e30c373524a731c0f7e1ecdfd1fc858fe
+Author: 211526-natalija-gagacheva <211526natalijagagacheva@gmail.com>
+Date:   Fri Mar 29 12:17:56 2024 +0100
+
+    Initial commit
