@@ -81,6 +81,7 @@ git push origin master
 #Dodavame datoteka logs
 git log > log.txt
 git add logs.txt 211526.txt
+git commit -m "Final Commit"
 
 #Sinhronizirame
 git pull origin master
